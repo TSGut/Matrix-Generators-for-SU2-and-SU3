@@ -47,6 +47,3 @@ MatrixRepSU2[dim_] := Block[{n=dim,i,t,matrix,com,Jmin,Jplu},
 
 	Return[t];
 ];
-
-
-End[];
