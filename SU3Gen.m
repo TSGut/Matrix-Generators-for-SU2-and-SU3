@@ -1,5 +1,3 @@
-(* ::Package:: *)
-
 (*
 
 	This file is part of BProbeM.
@@ -26,18 +24,12 @@
 *)
 
 
-
-BeginPackage["BProbeM`SU3Gen`"];
-
 (*
 		"MatrixRepSU3[highestweight] returns a list of matrices which are the irrep of " <>
 		"the su(3) Lie-Algebra with highest weight 'highestweight'.\n" <>
 		"The parameter is to be expected in the form {n,m}.\n\n" <>
 		"Example: t = MatrixRepSU3[{1,1}]; t[[1]] gives the first matrix rep.";
 *)
-
-Begin["`Private`"];
-
 
 MatrixRepSU3[highestweight_] := Block[{irrep=highestweight,t,com},
 	
@@ -171,7 +163,3 @@ GenerateGTPattern[irrepPattern_]:=Block[{irrep=irrepPattern,list,i,j,k},
 J[m_,k_,l_]:=Sqrt[-Product[m[\[Kappa],l+1]-m[k,l]+k-\[Kappa]+1,{\[Kappa],1,l+1}]*
 Product[m[\[Kappa],l-1]-m[k,l]+k-\[Kappa],{\[Kappa],1,l-1}]/
 Product[If[\[Kappa]!= k,(m[\[Kappa],l]-m[k,l]+k-\[Kappa]+1)(m[\[Kappa],l]-m[k,l]+k-\[Kappa]),1],{\[Kappa],1,l}]];
-
-
-End[];
-EndPackage[];
