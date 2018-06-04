@@ -16,6 +16,11 @@ For the purposes of citing, please see the full [BProbeM] package.
 
 The code for these two notebooks is subject to GNU General Public License v3.0, see the original variant [here].
 
+The two notebooks that are part of Matrix-Generators-for-SU2-and-SU3 are free software: you can redistribute them and/or modify
+them under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
 This software is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
