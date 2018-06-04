@@ -6,13 +6,15 @@ Computes the generators for a given representation of SU2 and SU3 as a list of m
 
 `MatrixRepSU3` in SU3Gen.m returns a specific matrix representation of the group SU(3) with [highest weight] as given via non-optional argument, e.g. for `{1,0}` it will return the [Gell-Mann matrices]. The method returns a [`List`] of eight matrices.
 
-These two Wolfram Mathematica notebooks are a part of [BProbeM], an open source Mathematica package to scan matrix geometries, forked from the original [BProbe]. The particular instances presented here have only been minimally modified to work as stand-alone functions instead of being part of a package. The code for these two notebooks is subject to GNU General Public License v3.0, see the original variant [here]. I suggest looking at the internal documentation via comments as well as thinking about the scaling your particular application requires.
+These two Wolfram Mathematica notebooks are a part of [BProbeM], an open source Mathematica package to scan matrix geometries, forked from the original [BProbe]. The particular instances presented here have only been minimally modified to work as stand-alone functions instead of being part of a package. I suggest looking at the internal documentation via comments as well as thinking about the scaling your particular application requires.
 
 The notebooks can in principle be added to Mathematica as part of the BProbeM package if desired but I believe they can perhaps be useful for other purposes and presenting them separate from the BProbeM package can help people who are looking for such an implementation to find them more easily.
 
 For the purposes of citing, please see the full [BProbeM] package.
 
 ## Software License
+
+The code for these two notebooks is subject to GNU General Public License v3.0, see the original variant [here].
 
 This software is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
