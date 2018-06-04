@@ -2,9 +2,9 @@
 
 Computes the generators for a given representation of SU2 and SU3 as a list of matrices.
 
-`MatrixRepSU2` returns a specific matrix representation of the group SU(2) with dimension as given via non-optional argument. The method returns a [`List`] of three matrices.
+`MatrixRepSU2` in SU2Gen.m returns a specific matrix representation of the group SU(2) with dimension as given via non-optional argument. The method returns a [`List`] of three matrices.
 
-`MatrixRepSU3` returns a specific matrix representation of the group SU(3) with [highest weight] as given via non-optional argument, e.g. for `{1,0}` it will return the [Gell-Mann matrices]. The method returns a [`List`] of eight matrices.
+`MatrixRepSU3` in SU3Gen.m returns a specific matrix representation of the group SU(3) with [highest weight] as given via non-optional argument, e.g. for `{1,0}` it will return the [Gell-Mann matrices]. The method returns a [`List`] of eight matrices.
 
 These two Wolfram Mathematica notebooks are a part of [BProbeM], an open source Mathematica package to scan matrix geometries, forked from the original [BProbe]. The code for these two notebooks is subject to GNU license v3, see the original variants [here]. 
 
