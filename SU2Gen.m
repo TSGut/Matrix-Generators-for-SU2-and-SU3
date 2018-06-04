@@ -1,5 +1,3 @@
-(* ::Package:: *)
-
 (*
 
 	This file is part of BProbeM.
@@ -24,20 +22,6 @@
     along with BProbeM. If not, see <http://www.gnu.org/licenses/>.
 
 *)
-
-
-
-BeginPackage["BProbeM`SU2Gen`"];
-
-(*
-		"MatrixRepSU2[n] returns a list of matrices which are the irrep of " <>
-		"the su(2) Lie-Algebra with dimension 'n'.\n\n" <>
-		"Example: j = MatrixRepSU2[3]; j[[1]] gives the first matrix rep.";
-*)
-
-
-Begin["`Private`"];
-
 
 MatrixRepSU2[dim_] := Block[{n=dim,i,t,matrix,com,Jmin,Jplu},
 	(* generate list of equations *)
@@ -66,4 +50,3 @@ MatrixRepSU2[dim_] := Block[{n=dim,i,t,matrix,com,Jmin,Jplu},
 
 
 End[];
-EndPackage[];
