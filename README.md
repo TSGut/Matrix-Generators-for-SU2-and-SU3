@@ -1,3 +1,6 @@
+[![GitHub](https://img.shields.io/badge/Parent%20Project-BProbeM-blue.svg?style=for-the-badge)](https://github.com/TSGut/BProbeM)
+[![GitHub](https://img.shields.io/github/license/TSGut/BProbeM.svg?style=for-the-badge)](https://github.com/TSGut/Matrix-Generators-for-SU2-and-SU3/blob/master/LICENSE)
+
 # Matrix-Generators-for-SU2-and-SU3
 
 Computes the generators for a given representation of SU2 and SU3 as a list of matrices.
