@@ -1,5 +1,5 @@
-[![GitHub](https://img.shields.io/badge/Parent%20Project-BProbeM-blue.svg?style=for-the-badge)](https://github.com/TSGut/BProbeM)
-[![GitHub](https://img.shields.io/github/license/TSGut/BProbeM.svg?style=for-the-badge)](https://github.com/TSGut/Matrix-Generators-for-SU2-and-SU3/blob/master/LICENSE)
+[![GitHub](https://img.shields.io/badge/Parent%20Project-BProbeM-blue.svg)](https://github.com/TSGut/BProbeM)
+[![GitHub](https://img.shields.io/github/license/TSGut/BProbeM.svg)](https://github.com/TSGut/Matrix-Generators-for-SU2-and-SU3/blob/master/LICENSE)
 
 # Matrix-Generators-for-SU2-and-SU3
 
@@ -13,7 +13,7 @@ These two Wolfram Mathematica notebooks are a part of [BProbeM], an open source 
 
 The notebooks can in principle be added to Mathematica as part of the BProbeM package if desired but I believe they can perhaps be useful for other purposes and presenting them separate from the BProbeM package can help people who are looking for such an implementation to find them more easily.
 
-For the purposes of citing, please see the full [BProbeM] package.
+For the purposes of citing if you use this in projects / research, please see the full [BProbeM] package.
 
 ## Software License
 
