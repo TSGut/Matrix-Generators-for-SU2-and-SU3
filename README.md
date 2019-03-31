@@ -1,4 +1,4 @@
-[![GitHub](https://img.shields.io/badge/Parent%20Project-BProbeM-blue.svg)](https://github.com/TSGut/BProbeM)
+[![GitHub](https://img.shields.io/badge/parent%20project-BProbeM-blue.svg)](https://github.com/TSGut/BProbeM)
 [![GitHub](https://img.shields.io/github/license/TSGut/BProbeM.svg)](https://github.com/TSGut/Matrix-Generators-for-SU2-and-SU3/blob/master/LICENSE)
 
 # Matrix-Generators-for-SU2-and-SU3
